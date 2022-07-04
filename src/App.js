@@ -80,24 +80,38 @@ function App() {
             <div>
               <button className="flex items-center text-xl font-semibold py-2 px-6 bg-[#5422ea] text-white rounded-3xl mt-6">
                 <span>See Class Schedule </span>
-                <img
-                  className="text-[#eee6e6]"
-                  src={`https://img.icons8.com/ios-glyphs/30/000000/chevron-right.png`}
-                  alt="right-arrow"
-                />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
               </button>
             </div>
             <div className="flex items-center text-[#5422ea] font-bold text-xl md:mx-12 mx-2">
-              <img
-                className="mr-1 w-6 h-6"
-                src={`https://img.icons8.com/material-outlined/24/000000/like--v1.png`}
-                alt="like"
-              />
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                />
+              </svg>
               <p>Save</p>
             </div>
             <div className="flex items-center text-[#5422ea] font-bold text-xl">
               <img
-                className="mr-1 w-6 h-6"
+                className="mr-1 w-5 h-5"
                 src={`https://img.icons8.com/external-bartama-glyph-64-bartama-graphic/64/000000/external-arrow-user-interface-glyph-bartama-glyph-64-bartama-graphic.png`}
                 alt="share"
               />
